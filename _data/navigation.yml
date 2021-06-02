@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Pricing
+  link: /pricing.html
+- name: Products
+  link: /products.html
+- name: Startup-package
+  link: /startup-package.html
+- name: Namarunu-store
+  link: /namarunu-store.html
+- name: Web-administration-services
+  link: /web-administration.html
+- name: Blog
+  link: /blog.html

@@ -1,0 +1,33 @@
+---
+layout: blog
+---
+
+<div class="main-blog-content">
+  <div class="container col-md-8">
+    <small><a href="/blog" class="custom-card-link">All Collections</a> > Namarunu Store - {{ page.name }}</small>
+    <div class="card-custom-2">
+      <div class="row mt-5">
+        <div class="col-2">
+          <img src="/assets/images/bc-icons/{{ page.icon }}" alt=" {{ page.icon }}">
+        </div>
+        <div class="col-10">
+          <h1>Namarunu Store - {{ page.title }}</h1>
+          <br>
+          {{ content }}
+        </div>
+      </div>
+    </div><br><br>
+    {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
+    {% for post in filtered_posts reversed %}
+      <div class="card-custom-3 container">
+        <a href="{{ post.url}}" class="custom-card-link">
+        <h5 class="bc-name">{{ post.title }}</h5>
+        <p>{{ post.excerpt }}</p>
+        <p>Written by Namarunu <br>
+          Updated a few days ago
+        </p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>

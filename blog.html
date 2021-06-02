@@ -1,0 +1,24 @@
+---
+title: Namarunu Store
+text: Advice and answers from the Namarunu Team
+layout: blog
+---
+
+<div class="main-blog-content">
+  {% for category in site.categories %}
+    <div class="container col-md-8">
+      <a href="{{ category.url }}" class="custom-card-link">
+      <div class="custom-card row">
+        <div class="col-md-2 col-sm-2">
+          <img src="/assets/images/bc-icons/{{ category.icon }}" alt=" {{ category.icon }}">
+        </div>
+        <div class="col-md-10 col-sm-10">
+          <h5 class="bc-name">Namarunu Store - {{ category.name }}</h5>
+          <p>{{ category.content | markdownify }}</p>
+          <small>12 articles in this collection</small>
+        </div>
+      </div>
+    </a>
+    </div>
+  {% endfor %}
+</div>

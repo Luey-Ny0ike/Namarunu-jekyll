@@ -1,0 +1,18 @@
+---
+layout: blog
+---
+
+<div class="main-blog-content">
+  <div class="container col-md-9">
+    <small><a href="/blog" class="custom-card-link">All Collections</a> > <a href="/categories/{{ page.category | downcase }}.html" class="custom-card-link">{{ page.category }} > </a>Namarunu Store - {{ page.title }}</small>
+    <div class="custom-card container">
+      <h1>{{ page.title }}</h1><br>
+      <p class="custom-card-link">{{ page.excerpt }}</p>
+      <p class="custom-card-link">
+        Written by Namarunu <br>
+        a few days ago
+      </p><br>
+      {{ content | remove_first:page.excerpt }}
+    </div>
+  </div>
+</div>
