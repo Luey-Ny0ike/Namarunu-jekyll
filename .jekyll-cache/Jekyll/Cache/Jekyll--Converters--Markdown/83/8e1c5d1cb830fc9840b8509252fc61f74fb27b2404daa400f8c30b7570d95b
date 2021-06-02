@@ -1,0 +1,30 @@
+I"{	<p>This article will cover the general settings setup for things like store descriptions, logo, social media links and more</p>
+
+<p>Once your on the admin dashboard, access the menu by clicking on the top right hambuger menu icon to toggle the side menu(On mobile phones). The menu should already be visible on larger screen devices like tablets and laptops. Scroll down to store settings &gt; General settings.</p>
+
+<p><img src="/assets/gifs/General-settings.gif" alt="How to access the general setting page Namarunu" title="How to access the general settings page - Namarunu" class="img-fluid" /></p>
+
+<p>In the General settings page. You can add the following:</p>
+<ol>
+  <li>
+    <p><strong>Store Name</strong> -
+The store name will be displayed throughout the app in areas like the emails, footer or in place of a missing logo. <strong>Always have a store name</strong></p>
+  </li>
+  <li>
+    <p><strong>Store Logo</strong> -
+The store logo is displayed on the top left of all the pages on the website. It is also displayed at the top of all the generated docs like invoices/receipts. To add or change a logo, click on the choose file button and select the image of choice and finally click on submit. You may require to reload the page for changes to take effect.</p>
+  </li>
+  <li>
+    <p><strong>Mini Logo</strong> - The mini logo is just a smaller version of the logo to be displayed on smaller devices like mobile phones. The store logo can be used as default in absence of a mini logo</p>
+  </li>
+  <li>
+    <p><strong>Store Description</strong> - A brief description of your store, the services it offers and things of that nature</p>
+  </li>
+  <li>
+    <p><strong>Meta Description and Meta keywords</strong> -  Simillar to store description, we use this info for SEO optimisation. This in simpler terms is to help google index your website to suggest it to users. Add essential keywords/descriptions. ie if you’re a funiture shop, add terms like sofas, recliners, tables etc. Contact us at namarunu@gmail.com for more help.</p>
+  </li>
+  <li>
+    <p><strong>Social Media Urls</strong> - Add all your social media link in the text boxes respectively. Make sure you add the full link not just a username, ie for IG https://www.instagram.com/orcadeco_kenya/ or Twitter https://twitter.com/namarunu. For all the fields filled, a respective icon will be displayed in specific areas like the footer.</p>
+  </li>
+</ol>
+:ET
