@@ -1,0 +1,18 @@
+I"·<p>This article will cover how to setup your payment details to receive payments from customers during purchase.</p>
+
+<p>Payment integrations in N-store come in multiple ways. There is mpesa stk auto integration and card payments via flutterwave or other 3rd parties. To learn more about them, their advantages and disadvantages, kindly contact our support team at +254726160664 or email us at namarunu@gmail.com.</p>
+
+<p>We do have direct and manual integration for both Mpesa and card straight from the box. This will not be a deep integration so essentially it will just be displaying relevant payment info to the customer, ie a Mpesa till number or bank account number and prompting them a confirmation code. You will then manually approve receiving the payment based on the confirmation code. The main advantage of this is you will not incur any transaction charges beyond those already existing unlike the automated ones which charge upwards of 3% per transaction.</p>
+
+<p>Under <strong>Store settings &gt; Payment getaway setup</strong> you can add your Mpesa details</p>
+
+<p>Paybill/Buy Goods number/Mpesa phone number.</p>
+
+<p>Account Number - Leave this blank if itâ€™s not applicable</p>
+
+<p>Display Name - The name displayed after/during the payment</p>
+
+<p>Click on submit to save the details. They will be displayed to the customer during purchase as follows:</p>
+
+<p>We shall talk more about payments and payment processing in another article.</p>
+:ET
